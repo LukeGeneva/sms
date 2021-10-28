@@ -1,19 +1,27 @@
 {
-  "name": "sms",
+  "name": "@reticlesoftware/sms",
   "version": "1.0.0",
-  "description": "",
+  "description": "A module and command line utility for sending Twilio SMS messages.",
   "main": "sms.js",
+  "bin": {
+    "sms": "./cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Luke Geneva",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReticleSoftware/sms.git"
+  },
+  "author": "Reticle LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReticleSoftware/sms/issues"
+  },
+  "homepage": "https://github.com/ReticleSoftware/sms#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "twilio": "^3.67.2",
-    "yargs": "^17.1.1"
-  },
-  "bin": {
-    "sms": "./cli.js"
+    "twilio": "^3.70.0",
+    "yargs": "^17.2.1"
   }
 }
